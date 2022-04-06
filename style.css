@@ -3,5 +3,44 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+section {
+    display: flex;
+    padding: 20px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 60%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(#db8e09, tomato);
+    color: white;
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+section {
+    display: flex;
+    margin-bottom: 1 px;
+}
+
+.dream-big {
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
